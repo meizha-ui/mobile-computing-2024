@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://example.com/hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Main Section Styles */
+main {
+    background: #fff;
+    padding: 40px;
+    margin-top: -50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+main section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+main section ul {
+    padding: 0;
+    list-style: none;
+}
+
+main section ul li {
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #4ca1af;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main section ul li:hover {
+    background: #2c3e50;
+}
+
+/* Footer Styles */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    color: #4ca1af;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}

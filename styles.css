@@ -1,0 +1,85 @@
+let name = "Paulo";
+let age = 20;
+let hasHobbies = true;
+let hobbies = ["Basketball", "Skateboarding"];
+
+const nameThatCannotChange = "Paulo";
+
+if (hasHobbies) {
+    console.log("I have hobbies");
+}
+
+if (age > 20) {
+    console.log("You are older than 20.");
+} else if (age < 20) {
+    console.log("You are not older than 20.");
+} else if (age === 20) {
+    console.log("You are 20 years old.");
+} else {
+    console.log("You are months old");
+}
+
+switch (name) {
+    case "Paulo":
+        console.log("You are Paulo");
+        break;
+    default:
+        console.log("You are not Paulo");
+}
+
+console.log(name);
+console.log(age);
+console.log(hasHobbies);
+console.log(nameThatCannotChange);
+
+console.log(`My name is ${name} and I am ${age} years old.`);
+
+console.log(hobbies);
+console.log(hobbies[1]);
+
+for (let hobby of hobbies) {
+    console.log(hobby);
+}
+
+hobbies.push("Programming");
+console.log(hobbies);
+
+hobbies = hobbies.map(hobby => hobby + " is fun");
+console.log(hobbies);
+
+let person = {
+    name: "Paulo",
+    age: 20,
+    hasHobbies: true,
+    greet() {
+        console.log("Hello, I am " + this.name);
+    }
+};
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.hasHobbies);
+
+function myFunction() {
+    console.log("Hello my name is " + name");
+}
+
+myFunction();
+
+const myFunctionArrow = () => {
+    return "Hello my name is " + name";
+};
+
+console.log(myFunctionArrow());
+
+function describeStudent(name, age) {
+    console.log("This person is " + name + " and is " + age + " years old");
+}
+
+describeStudent(name, age);
+
+const describeStudentArrow = (name, age) => {
+    return `This person is ${name} and is ${age} years old`;
+};
+
+console.log(describeStudentArrow(name, age));
